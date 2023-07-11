@@ -11,8 +11,7 @@ from sklearn.impute import SimpleImputer
 
 # import model, model columns, scaler and encoder
 model = pickle.load(open("RF_model.pkl", "rb"))
-model_columns = pickle.load(open("model_columns.pkl", "rb"))
-imputer = pickle.load(open("column_trans.pkl", "rb"))
+imputer = pickle.load(open("imputer.pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))
 encoder = pickle.load(open("encoder.pkl", "rb"))
 
